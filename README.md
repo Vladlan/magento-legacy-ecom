@@ -11,9 +11,11 @@
 1. Install magento: https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/8974570
 
 
-2. To setup proper state of the magento app:
-    a. Download backup from https://drive.google.com/file/d/17H_i-BLjry-ZSSthbG65K-6DoqaWS9wU/view?usp=sharing
-    b. Prepare backup:
+2. To setup proper state of the magento app:  
+    
+    a. Download backup from https://drive.google.com/file/d/17H_i-BLjry-ZSSthbG65K-6DoqaWS9wU/view?usp=sharing  
+
+    b. Prepare backup:  
 
     ```bash
     sudo apt-get install unzip
@@ -23,7 +25,7 @@
     docker cp ./backup $container_name:var/www/html/var/backups
     ```   
 
-    c. Run command to rollback backup
+    c. Run command to rollback backup  
 
     ```bash
     bin/magento setup:rollback -c 1687872010_filesystem_code.tgz -m 1687872010_filesystem_media.tgz -d  1687872010_db.sql
