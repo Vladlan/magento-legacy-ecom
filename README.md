@@ -8,8 +8,7 @@
 
 ## Steps to setup initial state of the magento:
 
-1. Install magento: https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/8974570
-
+1. Install magento with the automated onelinesetup script. Example of how to do it:  https://courses.m.academy/courses/set-up-magento-2-development-environment-docker/lectures/8974570
 
 2. To setup proper state of the magento app:  
     
